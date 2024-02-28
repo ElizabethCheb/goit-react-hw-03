@@ -1,0 +1,14 @@
+.name {
+    display: flex;
+}
+.number {
+display: flex;
+}
+.div {
+    display: flex;
+    border: bisque solid 2px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}

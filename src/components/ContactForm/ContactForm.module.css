@@ -1,0 +1,24 @@
+.form {
+    border: bisque solid 2px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.number {
+    display: flex;
+    flex-direction: column;
+}
+.button {
+    display: flex;
+    margin: 20px auto 0;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
