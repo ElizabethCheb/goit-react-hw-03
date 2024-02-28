@@ -14,25 +14,19 @@ const App = () => {
           { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
         ];
   });
-
   const [filter, setFilter] = useState('');
-
   const filteredContacts = contacts.filter((contact) =>
     contact.name.toLowerCase().includes(filter.toLowerCase())
   );
-
   const addContact = (newContact) => {
     setContacts([...contacts, newContact]);
   };
-
   const deleteContact = (contactId) => {
     setContacts(contacts.filter((contact) => contact.id !== contactId));
   };
-
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
-
   return (
     <div>
       <h1>Phonebook</h1>
@@ -42,5 +36,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;

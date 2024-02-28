@@ -12,5 +12,4 @@ const SearchBox = ({ value, onChange }) => {
     </div>
   );
 };
-
 export default SearchBox;

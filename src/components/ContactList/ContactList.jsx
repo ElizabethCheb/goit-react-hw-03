@@ -1,5 +1,4 @@
 import Contact from '../Contact/Contact';
-
 const ContactList = ({ contacts, onDeleteContact }) => {
   return (
     <div>
@@ -9,5 +8,4 @@ const ContactList = ({ contacts, onDeleteContact }) => {
     </div>
   );
 };
-
 export default ContactList;
